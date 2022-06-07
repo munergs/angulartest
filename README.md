@@ -1,3 +1,7 @@
+# 这是一个个人的简单项目
+
+下载以后直接在控制台安装依赖 npm i 然后使用 npm run 就可以启动项目，项目主要是为了备份自己在本地做的一些东西
+
 # Test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
