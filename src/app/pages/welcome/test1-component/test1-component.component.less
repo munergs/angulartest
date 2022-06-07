@@ -1,0 +1,30 @@
+@import "node_modules/ng-zorro-antd/resizable/style/entry.less";
+    th{
+        background-color: #d3d3d3;
+    }
+    .head /deep/ th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+        background-color: transparent;
+    }
+.body{
+    td{
+        background-color: aliceblue;
+        border-bottom: 1px solid #000000;
+        
+    }
+}
+
+.resize-trigger {
+    width: 1px;
+    height: 30px;
+    margin-top: 12px;
+    background: #e8e8e8;
+  }
+  .nz-resizable-preview {
+    border-width: 0;
+    border-right-width: 1px;
+  }
+.hiddenText{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
